@@ -2,7 +2,6 @@ import { useContext, useState } from 'react';
 import { collection, query, where, getDocs, getDoc, setDoc, doc, updateDoc, serverTimestamp } from "firebase/firestore";
 import { db } from '../firebase';
 import { AuthContext } from '../context/AuthContext';
-import UserImg from '../img/testUser.jpeg'
 
 const Search = () => {
     const [username, setUsername] = useState("");

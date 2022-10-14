@@ -1,4 +1,3 @@
-import UserImg from '../img/testUser.jpeg'
 import { signOut } from 'firebase/auth';
 import { auth } from '../firebase';
 import { useContext } from 'react';

@@ -1,8 +1,6 @@
-import userEvent from '@testing-library/user-event';
 import { useContext, useEffect, useRef } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import { ChatContext } from '../context/ChatContext';
-import UserImg from '../img/testUser.jpeg';
 
 const Message = ({message}) => {
     const {currentUser} = useContext(AuthContext);

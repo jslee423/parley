@@ -5,7 +5,6 @@ import { auth, db, storage } from "../firebase";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore"; 
 import { useNavigate, Link } from "react-router-dom";
-import DefaultImg from '../img/testUser.jpeg';
 
 const Register = () => {
     const [err, setErr] = useState(false);

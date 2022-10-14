@@ -2,7 +2,6 @@ import { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import { doc, onSnapshot } from "firebase/firestore";
 import { db } from '../firebase';
-import UserImg from '../img/testUser.jpeg';
 import { ChatContext } from '../context/ChatContext';
 
 const Chats = () => {
